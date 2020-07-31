@@ -1,0 +1,13 @@
+[package]
+name = "importer1"
+version = "0.1.0"
+authors = ["ritz-786 <ritikraj7255@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "restaurant"
+path = "src/lib.rs"
+
+[dependencies]

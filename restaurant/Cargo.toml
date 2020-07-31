@@ -1,0 +1,17 @@
+[package]
+name = "restaurant"
+version = "0.1.0"
+authors = ["ritz-786 <ritikraj7255@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "hotel"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hotel"
+path = "src/bin/main.rs"
+
+[dependencies]
